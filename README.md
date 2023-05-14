@@ -2,39 +2,36 @@
 
 Build your entire website frontend in C++ in the spirit of jQuery.
 
-- [x] No dependencies.
-- [x] Header-only library.
-- [x] 100% synchronous.
-
-## License (**TODO**)
+* No dependencies.
+* Header-only library.
+* 100% synchronous.
 
 ## Features
 
-- [ ] Add a changelog.
-- [ ] API documentation.
+- [ ] CSS integration.
 - [ ] HTTP manipulation.
 	- [ ] Add fetch() support.
 - [x] HTML manipulation.
+	- [ ] Add more HTML element helper functions.
+		- [ ] Especially for things involving loops and iteration.
+	- [ ] Make DOM traversal easier.
+- [ ] Callbacks.
+- [ ] A templating system.
 - [x] WebSockets.
-- [ ] Implement HTTP functionality.
-- [ ] Add more HTML element helper functions.
-	- [ ] Especially for things involving loops and iteration.
-	- [ ] Improve and make DOM traversal easier.
-- [ ] Optimize the custom bridge between C++ and JavaScript for performance reasons.
+- [ ] Optimize the custom bridge between C++ and JavaScript for better performance.
+- [ ] Cleanup code.
+	- [ ] Naming should be more consistent.
+	- [ ] Refactor redundant code.
 
-## Non-Features
+## Usage Instructions (**TODO**)
 
-Things I am unlikely to implement unless there is a big need or demand.
-
-* CSS integration.
-* A templating system.
-* Callbacks.
+## API (**TODO**)
 
 ## Changelog (**TODO**)
 
-## API (**TODO**)
+## License (**TODO**)
 
 ## Notes
 
 * **This library is built for and requires [Emscripten](https://emscripten.org/).**
-* This project was created to fulfil my needs (one of which was to ditch JavaScript as much as possible). I may change things in API-breaking ways and other things without notice.
+* This project was created to fulfil my needs (one of which was to ditch JavaScript as much as possible). I may change things in API-breaking ways and other things without notice. Be warned.
