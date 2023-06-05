@@ -1,6 +1,6 @@
 # cppQuery
 
-Build your entire website frontend in C++ in the spirit of jQuery.
+Build your entire website frontend in C++.
 
 * No dependencies.
 * Header-only library.
@@ -9,20 +9,21 @@ Build your entire website frontend in C++ in the spirit of jQuery.
 
 ## Features
 
-- [ ] CSS integration.
+- [ ] URI manipulation.
+	- [ ] Hash string.
+	- [ ] Query string.
 - [ ] HTTP integration.
 	- [ ] _fetch()_ support.
 - [x] HTML manipulation.
 	- [ ] More HTML element helper functions.
 		- [ ] Especially for things involving loops and iteration.
 	- [ ] Make DOM traversal easier.
-- [ ] Callbacks.
-- [x] WebSockets.
-	- [ ] Auto reconnect.
-- [ ] Optimize the custom bridge between C++ and JavaScript for better performance.
-- [ ] Cleanup code.
-	- [ ] Naming should be more consistent.
-	- [ ] Refactor redundant code.
+- [ ] CSS integration.
+- [ ] Cookies support.
+- [ ] SessionStorage support.
+- [ ] LocalStorage support.
+- [ ] Callback support.
+- [x] WebSockets support.
 - [ ] Limited ability to use JavaScript.
 
 ## Usage Instructions (**TODO**)
